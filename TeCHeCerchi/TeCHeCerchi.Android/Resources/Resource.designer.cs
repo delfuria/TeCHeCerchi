@@ -26,10 +26,254 @@ namespace TeCHeCerchi.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circleColor = global::TeCHeCerchi.Droid.Resource.Attribute.circleColor;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circularProgressBarStyle = global::TeCHeCerchi.Droid.Resource.Attribute.circularProgressBarStyle;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_gravity = global::TeCHeCerchi.Droid.Resource.Attribute.circular_gravity;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate = global::TeCHeCerchi.Droid.Resource.Attribute.circular_indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate_interval = global::TeCHeCerchi.Droid.Resource.Attribute.circular_indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_marker_progress = global::TeCHeCerchi.Droid.Resource.Attribute.circular_marker_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress = global::TeCHeCerchi.Droid.Resource.Attribute.circular_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_background_color = global::TeCHeCerchi.Droid.Resource.Attribute.circular_progress_background_color;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_color = global::TeCHeCerchi.Droid.Resource.Attribute.circular_progress_color;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_stroke_width = global::TeCHeCerchi.Droid.Resource.Attribute.circular_stroke_width;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate = global::TeCHeCerchi.Droid.Resource.Attribute.indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate_interval = global::TeCHeCerchi.Droid.Resource.Attribute.indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.innerSize = global::TeCHeCerchi.Droid.Resource.Attribute.innerSize;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.max = global::TeCHeCerchi.Droid.Resource.Attribute.max;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinned = global::TeCHeCerchi.Droid.Resource.Attribute.pinned;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinnedDrawable = global::TeCHeCerchi.Droid.Resource.Attribute.pinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.progress = global::TeCHeCerchi.Droid.Resource.Attribute.progress;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressButtonStyle = global::TeCHeCerchi.Droid.Resource.Attribute.progressButtonStyle;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressColor = global::TeCHeCerchi.Droid.Resource.Attribute.progressColor;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.shadowDrawable = global::TeCHeCerchi.Droid.Resource.Attribute.shadowDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.unpinnedDrawable = global::TeCHeCerchi.Droid.Resource.Attribute.unpinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_circle_color = global::TeCHeCerchi.Droid.Resource.Color.progress_default_circle_color;
+			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_progress_color = global::TeCHeCerchi.Droid.Resource.Color.progress_default_progress_color;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_background_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_background_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_background_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_background_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_bright_foreground_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark_disabled = global::TeCHeCerchi.Droid.Resource.Color.refractored_bright_foreground_dark_disabled;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_bright_foreground_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_bright_foreground_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_bright_foreground_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_dim_foreground_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_dim_foreground_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_highlighted_text_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_highlighted_text_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_hint_foreground_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_hint_foreground_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_bright = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_blue_bright;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_blue_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_blue_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_green_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_green_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_orange_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_orange_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_purple = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_purple;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_dark = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_red_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_light = global::TeCHeCerchi.Droid.Resource.Color.refractored_holo_red_light;
+			global::com.refractored.monodroidtoolkit.Resource.Dimension.progress_inner_size = global::TeCHeCerchi.Droid.Resource.Dimension.progress_inner_size;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_pinned = global::TeCHeCerchi.Droid.Resource.Drawable.pin_progress_pinned;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_shadow = global::TeCHeCerchi.Droid.Resource.Drawable.pin_progress_shadow;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_unpinned = global::TeCHeCerchi.Droid.Resource.Drawable.pin_progress_unpinned;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_normal_holo = global::TeCHeCerchi.Droid.Resource.Drawable.scrubber_control_normal_holo;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_pressed_holo = global::TeCHeCerchi.Droid.Resource.Drawable.scrubber_control_pressed_holo;
+			global::com.refractored.monodroidtoolkit.Resource.Id.bottom = global::TeCHeCerchi.Droid.Resource.Id.bottom;
+			global::com.refractored.monodroidtoolkit.Resource.Id.center = global::TeCHeCerchi.Droid.Resource.Id.center;
+			global::com.refractored.monodroidtoolkit.Resource.Id.center_horizontal = global::TeCHeCerchi.Droid.Resource.Id.center_horizontal;
+			global::com.refractored.monodroidtoolkit.Resource.Id.center_vertical = global::TeCHeCerchi.Droid.Resource.Id.center_vertical;
+			global::com.refractored.monodroidtoolkit.Resource.Id.clip = global::TeCHeCerchi.Droid.Resource.Id.clip;
+			global::com.refractored.monodroidtoolkit.Resource.Id.clip_horizontal = global::TeCHeCerchi.Droid.Resource.Id.clip_horizontal;
+			global::com.refractored.monodroidtoolkit.Resource.Id.clip_vertical = global::TeCHeCerchi.Droid.Resource.Id.clip_vertical;
+			global::com.refractored.monodroidtoolkit.Resource.Id.end = global::TeCHeCerchi.Droid.Resource.Id.end;
+			global::com.refractored.monodroidtoolkit.Resource.Id.fill = global::TeCHeCerchi.Droid.Resource.Id.fill;
+			global::com.refractored.monodroidtoolkit.Resource.Id.fill_horizontal = global::TeCHeCerchi.Droid.Resource.Id.fill_horizontal;
+			global::com.refractored.monodroidtoolkit.Resource.Id.fill_vertical = global::TeCHeCerchi.Droid.Resource.Id.fill_vertical;
+			global::com.refractored.monodroidtoolkit.Resource.Id.left = global::TeCHeCerchi.Droid.Resource.Id.left;
+			global::com.refractored.monodroidtoolkit.Resource.Id.right = global::TeCHeCerchi.Droid.Resource.Id.right;
+			global::com.refractored.monodroidtoolkit.Resource.Id.start = global::TeCHeCerchi.Droid.Resource.Id.start;
+			global::com.refractored.monodroidtoolkit.Resource.Id.top = global::TeCHeCerchi.Droid.Resource.Id.top;
+			global::com.refractored.monodroidtoolkit.Resource.Integer.circular_indeterminent_interval = global::TeCHeCerchi.Droid.Resource.Integer.circular_indeterminent_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Integer.progressbutton_indeterminent_interval = global::TeCHeCerchi.Droid.Resource.Integer.progressbutton_indeterminent_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBar = global::TeCHeCerchi.Droid.Resource.Style.CircularProgressBar;
+			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBarLight = global::TeCHeCerchi.Droid.Resource.Style.CircularProgressBarLight;
+			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton = global::TeCHeCerchi.Droid.Resource.Style.ProgressButton;
+			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton_Pin = global::TeCHeCerchi.Droid.Resource.Style.ProgressButton_Pin;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar = global::TeCHeCerchi.Droid.Resource.Styleable.HoloCircularProgressBar;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_gravity = global::TeCHeCerchi.Droid.Resource.Styleable.HoloCircularProgressBar_circular_gravity;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate = global::TeCHeCerchi.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval = global::TeCHeCerchi.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress = global::TeCHeCerchi.Droid.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress = global::TeCHeCerchi.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color = global::TeCHeCerchi.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_color = global::TeCHeCerchi.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_color;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width = global::TeCHeCerchi.Droid.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_clickable = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_android_clickable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_focusable = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_android_focusable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_selectableItemBackground = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_android_selectableItemBackground;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_circleColor = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_circleColor;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate_interval = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_innerSize = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_innerSize;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_max = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_max;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinned = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_pinned;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinnedDrawable = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_pinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progress = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progressColor = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_progressColor;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_shadowDrawable = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_shadowDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_unpinnedDrawable = global::TeCHeCerchi.Droid.Resource.Styleable.ProgressButton_unpinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme = global::TeCHeCerchi.Droid.Resource.Styleable.Theme;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme_circularProgressBarStyle = global::TeCHeCerchi.Droid.Resource.Styleable.Theme_circularProgressBarStyle;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::TeCHeCerchi.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::TeCHeCerchi.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::TeCHeCerchi.Droid.Resource.Layout.zxingscannerfragmentlayout;
+		}
+		
+		public partial class Animation
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int slide_in_down = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int slide_in_left = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int slide_in_right = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int slide_in_up = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int slide_out_down = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int slide_out_left = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int slide_out_right = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int slide_out_up = 2130968583;
+			
+			static Animation()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Animation()
+			{
+			}
 		}
 		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f010000
+			public const int cardBackgroundColor = 2130771968;
+			
+			// aapt resource value: 0x7f010001
+			public const int cardCornerRadius = 2130771969;
+			
+			// aapt resource value: 0x7f010002
+			public const int cardElevation = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int cardMaxElevation = 2130771971;
+			
+			// aapt resource value: 0x7f010005
+			public const int cardPreventCornerOverlap = 2130771973;
+			
+			// aapt resource value: 0x7f010004
+			public const int cardUseCompatPadding = 2130771972;
+			
+			// aapt resource value: 0x7f01000e
+			public const int circleColor = 2130771982;
+			
+			// aapt resource value: 0x7f01001f
+			public const int circularProgressBarStyle = 2130771999;
+			
+			// aapt resource value: 0x7f010017
+			public const int circular_gravity = 2130771991;
+			
+			// aapt resource value: 0x7f01001d
+			public const int circular_indeterminate = 2130771997;
+			
+			// aapt resource value: 0x7f01001e
+			public const int circular_indeterminate_interval = 2130771998;
+			
+			// aapt resource value: 0x7f01001a
+			public const int circular_marker_progress = 2130771994;
+			
+			// aapt resource value: 0x7f010019
+			public const int circular_progress = 2130771993;
+			
+			// aapt resource value: 0x7f01001c
+			public const int circular_progress_background_color = 2130771996;
+			
+			// aapt resource value: 0x7f01001b
+			public const int circular_progress_color = 2130771995;
+			
+			// aapt resource value: 0x7f010018
+			public const int circular_stroke_width = 2130771992;
+			
+			// aapt resource value: 0x7f010006
+			public const int contentPadding = 2130771974;
+			
+			// aapt resource value: 0x7f01000a
+			public const int contentPaddingBottom = 2130771978;
+			
+			// aapt resource value: 0x7f010007
+			public const int contentPaddingLeft = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int contentPaddingRight = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int contentPaddingTop = 2130771977;
+			
+			// aapt resource value: 0x7f010015
+			public const int indeterminate = 2130771989;
+			
+			// aapt resource value: 0x7f010016
+			public const int indeterminate_interval = 2130771990;
+			
+			// aapt resource value: 0x7f010013
+			public const int innerSize = 2130771987;
+			
+			// aapt resource value: 0x7f01000d
+			public const int max = 2130771981;
+			
+			// aapt resource value: 0x7f010014
+			public const int pinned = 2130771988;
+			
+			// aapt resource value: 0x7f010010
+			public const int pinnedDrawable = 2130771984;
+			
+			// aapt resource value: 0x7f01000c
+			public const int progress = 2130771980;
+			
+			// aapt resource value: 0x7f01000b
+			public const int progressButtonStyle = 2130771979;
+			
+			// aapt resource value: 0x7f01000f
+			public const int progressColor = 2130771983;
+			
+			// aapt resource value: 0x7f010012
+			public const int shadowDrawable = 2130771986;
+			
+			// aapt resource value: 0x7f010020
+			public const int typeface = 2130772000;
+			
+			// aapt resource value: 0x7f010011
+			public const int unpinnedDrawable = 2130771985;
 			
 			static Attribute()
 			{
@@ -41,11 +285,436 @@ namespace TeCHeCerchi.Droid
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f07002a
+			public const int btn_bg_color = 2131165226;
+			
+			// aapt resource value: 0x7f07002d
+			public const int btn_bg_color_blue = 2131165229;
+			
+			// aapt resource value: 0x7f07002b
+			public const int btn_bg_shadow_color = 2131165227;
+			
+			// aapt resource value: 0x7f07002e
+			public const int btn_bg_shadow_color_blue = 2131165230;
+			
+			// aapt resource value: 0x7f070000
+			public const int cardview_dark_background = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int cardview_light_background = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int cardview_shadow_end_color = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int cardview_shadow_start_color = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int progress_default_circle_color = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int progress_default_progress_color = 2131165189;
+			
+			// aapt resource value: 0x7f07002c
+			public const int quest_color = 2131165228;
+			
+			// aapt resource value: 0x7f070006
+			public const int refractored_background_dark = 2131165190;
+			
+			// aapt resource value: 0x7f07000b
+			public const int refractored_background_holo_dark = 2131165195;
+			
+			// aapt resource value: 0x7f07000c
+			public const int refractored_background_holo_light = 2131165196;
+			
+			// aapt resource value: 0x7f070007
+			public const int refractored_background_light = 2131165191;
+			
+			// aapt resource value: 0x7f070008
+			public const int refractored_bright_foreground_dark = 2131165192;
+			
+			// aapt resource value: 0x7f07000a
+			public const int refractored_bright_foreground_dark_disabled = 2131165194;
+			
+			// aapt resource value: 0x7f07000f
+			public const int refractored_bright_foreground_disabled_holo_dark = 2131165199;
+			
+			// aapt resource value: 0x7f070010
+			public const int refractored_bright_foreground_disabled_holo_light = 2131165200;
+			
+			// aapt resource value: 0x7f07000d
+			public const int refractored_bright_foreground_holo_dark = 2131165197;
+			
+			// aapt resource value: 0x7f07000e
+			public const int refractored_bright_foreground_holo_light = 2131165198;
+			
+			// aapt resource value: 0x7f070009
+			public const int refractored_bright_foreground_light = 2131165193;
+			
+			// aapt resource value: 0x7f070012
+			public const int refractored_dim_foreground_disabled_holo_dark = 2131165202;
+			
+			// aapt resource value: 0x7f070015
+			public const int refractored_dim_foreground_disabled_holo_light = 2131165205;
+			
+			// aapt resource value: 0x7f070011
+			public const int refractored_dim_foreground_holo_dark = 2131165201;
+			
+			// aapt resource value: 0x7f070014
+			public const int refractored_dim_foreground_holo_light = 2131165204;
+			
+			// aapt resource value: 0x7f070017
+			public const int refractored_highlighted_text_holo_dark = 2131165207;
+			
+			// aapt resource value: 0x7f070018
+			public const int refractored_highlighted_text_holo_light = 2131165208;
+			
+			// aapt resource value: 0x7f070013
+			public const int refractored_hint_foreground_holo_dark = 2131165203;
+			
+			// aapt resource value: 0x7f070016
+			public const int refractored_hint_foreground_holo_light = 2131165206;
+			
+			// aapt resource value: 0x7f070022
+			public const int refractored_holo_blue_bright = 2131165218;
+			
+			// aapt resource value: 0x7f07001c
+			public const int refractored_holo_blue_dark = 2131165212;
+			
+			// aapt resource value: 0x7f070019
+			public const int refractored_holo_blue_light = 2131165209;
+			
+			// aapt resource value: 0x7f07001d
+			public const int refractored_holo_green_dark = 2131165213;
+			
+			// aapt resource value: 0x7f07001a
+			public const int refractored_holo_green_light = 2131165210;
+			
+			// aapt resource value: 0x7f070021
+			public const int refractored_holo_orange_dark = 2131165217;
+			
+			// aapt resource value: 0x7f070020
+			public const int refractored_holo_orange_light = 2131165216;
+			
+			// aapt resource value: 0x7f07001f
+			public const int refractored_holo_purple = 2131165215;
+			
+			// aapt resource value: 0x7f07001e
+			public const int refractored_holo_red_dark = 2131165214;
+			
+			// aapt resource value: 0x7f07001b
+			public const int refractored_holo_red_light = 2131165211;
+			
+			// aapt resource value: 0x7f070025
+			public const int xam_blue = 2131165221;
+			
+			// aapt resource value: 0x7f070023
+			public const int xam_dark_blue = 2131165219;
+			
+			// aapt resource value: 0x7f070028
+			public const int xam_gray = 2131165224;
+			
+			// aapt resource value: 0x7f070026
+			public const int xam_green = 2131165222;
+			
+			// aapt resource value: 0x7f070027
+			public const int xam_light_gray = 2131165223;
+			
+			// aapt resource value: 0x7f070029
+			public const int xam_medium_blue = 2131165225;
+			
+			// aapt resource value: 0x7f070024
+			public const int xam_purple = 2131165220;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f080004
+			public const int btn_corner_radius = 2131230724;
+			
+			// aapt resource value: 0x7f080000
+			public const int cardview_compat_inset_shadow = 2131230720;
+			
+			// aapt resource value: 0x7f080001
+			public const int cardview_default_elevation = 2131230721;
+			
+			// aapt resource value: 0x7f080002
+			public const int cardview_default_radius = 2131230722;
+			
+			// aapt resource value: 0x7f080003
+			public const int progress_inner_size = 2131230723;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ab_background_textured_quest = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int ab_bottom_solid_quest = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int ab_solid_quest = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int ab_stacked_solid_quest = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int ab_texture_tile_quest = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int ab_transparent_quest = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int btn_bg = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int btn_bg_blue = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int btn_bg_inactive = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int btn_bg_inactive_blue = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int btn_bg_inactive_trans = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int btn_bg_normal = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int btn_bg_normal_blue = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int btn_bg_normal_trans = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int btn_bg_pressed = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int btn_bg_pressed_blue = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int btn_bg_pressed_trans = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int btn_bg_trans = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int btn_cab_done_default_quest = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int btn_cab_done_focused_quest = 2130837523;
+			
+			// aapt resource value: 0x7f020014
+			public const int btn_cab_done_pressed_quest = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int btn_cab_done_quest = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public const int cab_background_bottom_quest = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public const int cab_background_top_quest = 2130837527;
+			
+			// aapt resource value: 0x7f020018
+			public const int ic_action_about = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int ic_action_scan = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int ic_banana = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int ic_code = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int ic_game_completed = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int ic_launcher = 2130837533;
+			
+			// aapt resource value: 0x7f02001e
+			public const int ic_no_banana = 2130837534;
+			
+			// aapt resource value: 0x7f02001f
+			public const int ic_quest_completed = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int ic_question = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int ic_secret_prize = 2130837537;
+			
+			// aapt resource value: 0x7f020022
+			public const int ic_star = 2130837538;
+			
+			// aapt resource value: 0x7f020023
+			public const int Icon = 2130837539;
+			
+			// aapt resource value: 0x7f020024
+			public const int list_focused_quest = 2130837540;
+			
+			// aapt resource value: 0x7f020025
+			public const int list_pressed_quest = 2130837541;
+			
+			// aapt resource value: 0x7f020026
+			public const int menu_dropdown_panel_quest = 2130837542;
+			
+			// aapt resource value: 0x7f020027
+			public const int pin_progress_pinned = 2130837543;
+			
+			// aapt resource value: 0x7f020028
+			public const int pin_progress_shadow = 2130837544;
+			
+			// aapt resource value: 0x7f020029
+			public const int pin_progress_unpinned = 2130837545;
+			
+			// aapt resource value: 0x7f02002a
+			public const int progress_bg_quest = 2130837546;
+			
+			// aapt resource value: 0x7f02002b
+			public const int progress_horizontal_quest = 2130837547;
+			
+			// aapt resource value: 0x7f02002c
+			public const int progress_primary_quest = 2130837548;
+			
+			// aapt resource value: 0x7f02002d
+			public const int progress_secondary_quest = 2130837549;
+			
+			// aapt resource value: 0x7f02002e
+			public const int quest_map1 = 2130837550;
+			
+			// aapt resource value: 0x7f02002f
+			public const int quest_map2 = 2130837551;
+			
+			// aapt resource value: 0x7f020030
+			public const int quest_map3 = 2130837552;
+			
+			// aapt resource value: 0x7f020031
+			public const int quest_map4 = 2130837553;
+			
+			// aapt resource value: 0x7f020032
+			public const int quest_map5 = 2130837554;
+			
+			// aapt resource value: 0x7f020033
+			public const int quest_map6 = 2130837555;
+			
+			// aapt resource value: 0x7f020034
+			public const int quest_progress_bg_holo_light = 2130837556;
+			
+			// aapt resource value: 0x7f020035
+			public const int quest_progress_horizontal_holo_light = 2130837557;
+			
+			// aapt resource value: 0x7f020036
+			public const int quest_progress_indeterminate_horizontal_holo_light = 2130837558;
+			
+			// aapt resource value: 0x7f020037
+			public const int quest_progress_primary_holo_light = 2130837559;
+			
+			// aapt resource value: 0x7f020038
+			public const int quest_progress_secondary_holo_light = 2130837560;
+			
+			// aapt resource value: 0x7f020039
+			public const int quest_progressbar_indeterminate_holo1 = 2130837561;
+			
+			// aapt resource value: 0x7f02003a
+			public const int quest_progressbar_indeterminate_holo2 = 2130837562;
+			
+			// aapt resource value: 0x7f02003b
+			public const int quest_progressbar_indeterminate_holo3 = 2130837563;
+			
+			// aapt resource value: 0x7f02003c
+			public const int quest_progressbar_indeterminate_holo4 = 2130837564;
+			
+			// aapt resource value: 0x7f02003d
+			public const int quest_progressbar_indeterminate_holo5 = 2130837565;
+			
+			// aapt resource value: 0x7f02003e
+			public const int quest_progressbar_indeterminate_holo6 = 2130837566;
+			
+			// aapt resource value: 0x7f02003f
+			public const int quest_progressbar_indeterminate_holo7 = 2130837567;
+			
+			// aapt resource value: 0x7f020040
+			public const int quest_progressbar_indeterminate_holo8 = 2130837568;
+			
+			// aapt resource value: 0x7f020041
+			public const int ripple_background = 2130837569;
+			
+			// aapt resource value: 0x7f020042
+			public const int scrubber_control_normal_holo = 2130837570;
+			
+			// aapt resource value: 0x7f020043
+			public const int scrubber_control_pressed_holo = 2130837571;
+			
+			// aapt resource value: 0x7f020044
+			public const int selectable_background_quest = 2130837572;
+			
+			// aapt resource value: 0x7f020045
+			public const int spinner_ab_default_quest = 2130837573;
+			
+			// aapt resource value: 0x7f020046
+			public const int spinner_ab_disabled_quest = 2130837574;
+			
+			// aapt resource value: 0x7f020047
+			public const int spinner_ab_focused_quest = 2130837575;
+			
+			// aapt resource value: 0x7f020048
+			public const int spinner_ab_pressed_quest = 2130837576;
+			
+			// aapt resource value: 0x7f020049
+			public const int spinner_background_ab_quest = 2130837577;
+			
+			// aapt resource value: 0x7f02004a
+			public const int tab_indicator_ab_quest = 2130837578;
+			
+			// aapt resource value: 0x7f02004b
+			public const int tab_selected_focused_quest = 2130837579;
+			
+			// aapt resource value: 0x7f02004c
+			public const int tab_selected_pressed_quest = 2130837580;
+			
+			// aapt resource value: 0x7f02004d
+			public const int tab_selected_quest = 2130837581;
+			
+			// aapt resource value: 0x7f02004e
+			public const int tab_unselected_focused_quest = 2130837582;
+			
+			// aapt resource value: 0x7f02004f
+			public const int tab_unselected_pressed_quest = 2130837583;
+			
+			// aapt resource value: 0x7f020050
+			public const int tab_unselected_quest = 2130837584;
+			
+			// aapt resource value: 0x7f020051
+			public const int xamarin_icon = 2130837585;
 			
 			static Drawable()
 			{
@@ -60,8 +729,176 @@ namespace TeCHeCerchi.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			// aapt resource value: 0x7f0c0038
+			public const int action_about = 2131492920;
+			
+			// aapt resource value: 0x7f0c0037
+			public const int action_scan = 2131492919;
+			
+			// aapt resource value: 0x7f0c002a
+			public const int awesome = 2131492906;
+			
+			// aapt resource value: 0x7f0c0031
+			public const int background = 2131492913;
+			
+			// aapt resource value: 0x7f0c0024
+			public const int beacon1 = 2131492900;
+			
+			// aapt resource value: 0x7f0c0025
+			public const int beacon2 = 2131492901;
+			
+			// aapt resource value: 0x7f0c0026
+			public const int beacon3 = 2131492902;
+			
+			// aapt resource value: 0x7f0c0000
+			public const int bottom = 2131492864;
+			
+			// aapt resource value: 0x7f0c0034
+			public const int button_about = 2131492916;
+			
+			// aapt resource value: 0x7f0c0030
+			public const int button_answer = 2131492912;
+			
+			// aapt resource value: 0x7f0c002e
+			public const int button_cancel = 2131492910;
+			
+			// aapt resource value: 0x7f0c0028
+			public const int button_continue = 2131492904;
+			
+			// aapt resource value: 0x7f0c002f
+			public const int button_enter = 2131492911;
+			
+			// aapt resource value: 0x7f0c0035
+			public const int button_play = 2131492917;
+			
+			// aapt resource value: 0x7f0c0022
+			public const int card_view = 2131492898;
+			
+			// aapt resource value: 0x7f0c0001
+			public const int center = 2131492865;
+			
+			// aapt resource value: 0x7f0c0002
+			public const int center_horizontal = 2131492866;
+			
+			// aapt resource value: 0x7f0c0003
+			public const int center_vertical = 2131492867;
+			
+			// aapt resource value: 0x7f0c0004
+			public const int clip = 2131492868;
+			
+			// aapt resource value: 0x7f0c0005
+			public const int clip_horizontal = 2131492869;
+			
+			// aapt resource value: 0x7f0c0006
+			public const int clip_vertical = 2131492870;
+			
+			// aapt resource value: 0x7f0c002d
+			public const int code = 2131492909;
+			
+			// aapt resource value: 0x7f0c002b
+			public const int congrats = 2131492907;
+			
+			// aapt resource value: 0x7f0c0036
+			public const int contentFrame = 2131492918;
+			
+			// aapt resource value: 0x7f0c0007
+			public const int end = 2131492871;
+			
+			// aapt resource value: 0x7f0c0008
+			public const int fill = 2131492872;
+			
+			// aapt resource value: 0x7f0c0009
+			public const int fill_horizontal = 2131492873;
+			
+			// aapt resource value: 0x7f0c000a
+			public const int fill_vertical = 2131492874;
+			
+			// aapt resource value: 0x7f0c002c
+			public const int hint = 2131492908;
+			
+			// aapt resource value: 0x7f0c000b
+			public const int left = 2131492875;
+			
+			// aapt resource value: 0x7f0c0020
+			public const int main_image = 2131492896;
+			
+			// aapt resource value: 0x7f0c0027
+			public const int main_text = 2131492903;
+			
+			// aapt resource value: 0x7f0c0033
+			public const int map = 2131492915;
+			
+			// aapt resource value: 0x7f0c0032
+			public const int map_scroll = 2131492914;
+			
+			// aapt resource value: 0x7f0c001f
+			public const int progressBar = 2131492895;
+			
+			// aapt resource value: 0x7f0c000c
+			public const int right = 2131492876;
+			
+			// aapt resource value: 0x7f0c000f
+			public const int roboto_black = 2131492879;
+			
+			// aapt resource value: 0x7f0c0010
+			public const int roboto_black_italic = 2131492880;
+			
+			// aapt resource value: 0x7f0c0011
+			public const int roboto_bold = 2131492881;
+			
+			// aapt resource value: 0x7f0c0012
+			public const int roboto_bold_italic = 2131492882;
+			
+			// aapt resource value: 0x7f0c0013
+			public const int roboto_condensed = 2131492883;
+			
+			// aapt resource value: 0x7f0c0014
+			public const int roboto_condensed_bold = 2131492884;
+			
+			// aapt resource value: 0x7f0c0015
+			public const int roboto_condensed_bold_italic = 2131492885;
+			
+			// aapt resource value: 0x7f0c0016
+			public const int roboto_condensed_italic = 2131492886;
+			
+			// aapt resource value: 0x7f0c0017
+			public const int roboto_italic = 2131492887;
+			
+			// aapt resource value: 0x7f0c0018
+			public const int roboto_light = 2131492888;
+			
+			// aapt resource value: 0x7f0c0019
+			public const int roboto_light_italic = 2131492889;
+			
+			// aapt resource value: 0x7f0c001a
+			public const int roboto_medium = 2131492890;
+			
+			// aapt resource value: 0x7f0c001b
+			public const int roboto_medium_italic = 2131492891;
+			
+			// aapt resource value: 0x7f0c001c
+			public const int roboto_regular = 2131492892;
+			
+			// aapt resource value: 0x7f0c001d
+			public const int roboto_thin = 2131492893;
+			
+			// aapt resource value: 0x7f0c001e
+			public const int roboto_thin_italic = 2131492894;
+			
+			// aapt resource value: 0x7f0c0021
+			public const int share_success = 2131492897;
+			
+			// aapt resource value: 0x7f0c000d
+			public const int start = 2131492877;
+			
+			// aapt resource value: 0x7f0c0023
+			public const int text_beacons = 2131492899;
+			
+			// aapt resource value: 0x7f0c0029
+			public const int text_quest_number = 2131492905;
+			
+			// aapt resource value: 0x7f0c000e
+			public const int top = 2131492878;
 			
 			static Id()
 			{
@@ -73,11 +910,51 @@ namespace TeCHeCerchi.Droid
 			}
 		}
 		
+		public partial class Integer
+		{
+			
+			// aapt resource value: 0x7f090001
+			public const int circular_indeterminent_interval = 2131296257;
+			
+			// aapt resource value: 0x7f090000
+			public const int progressbutton_indeterminent_interval = 2131296256;
+			
+			static Integer()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Integer()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int game_complete = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int quest = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int quest_code = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int quest_complete = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int quest_question = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int welcome = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int zxingscanneractivitylayout = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int zxingscannerfragmentlayout = 2130903047;
 			
 			static Layout()
 			{
@@ -89,14 +966,126 @@ namespace TeCHeCerchi.Droid
 			}
 		}
 		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0b0000
+			public const int menu_home = 2131427328;
+			
+			// aapt resource value: 0x7f0b0001
+			public const int menu_welcome = 2131427329;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f0a0008
+			public const int about = 2131361800;
 			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			// aapt resource value: 0x7f0a001b
+			public const int all_found = 2131361819;
+			
+			// aapt resource value: 0x7f0a0016
+			public const int almost_there = 2131361814;
+			
+			// aapt resource value: 0x7f0a0002
+			public const int answer = 2131361794;
+			
+			// aapt resource value: 0x7f0a0004
+			public const int app_name = 2131361796;
+			
+			// aapt resource value: 0x7f0a000c
+			public const int awesome = 2131361804;
+			
+			// aapt resource value: 0x7f0a000b
+			public const int beacons_near = 2131361803;
+			
+			// aapt resource value: 0x7f0a000e
+			public const int brilliant = 2131361806;
+			
+			// aapt resource value: 0x7f0a0001
+			public const int cancel = 2131361793;
+			
+			// aapt resource value: 0x7f0a001a
+			public const int code_hint = 2131361818;
+			
+			// aapt resource value: 0x7f0a0015
+			public const int completed = 2131361813;
+			
+			// aapt resource value: 0x7f0a001d
+			public const int congratulations = 2131361821;
+			
+			// aapt resource value: 0x7f0a0003
+			public const int continue_game = 2131361795;
+			
+			// aapt resource value: 0x7f0a0013
+			public const int continue_quest = 2131361811;
+			
+			// aapt resource value: 0x7f0a0019
+			public const int correct_answer = 2131361817;
+			
+			// aapt resource value: 0x7f0a0018
+			public const int correct_code = 2131361816;
+			
+			// aapt resource value: 0x7f0a0006
+			public const int enter_code = 2131361798;
+			
+			// aapt resource value: 0x7f0a000d
+			public const int fantastic = 2131361805;
+			
+			// aapt resource value: 0x7f0a001c
+			public const int finish_quest = 2131361820;
+			
+			// aapt resource value: 0x7f0a0020
+			public const int game_end = 2131361824;
+			
+			// aapt resource value: 0x7f0a0007
+			public const int menu_about = 2131361799;
+			
+			// aapt resource value: 0x7f0a0005
+			public const int menu_scan = 2131361797;
+			
+			// aapt resource value: 0x7f0a0009
+			public const int mission = 2131361801;
+			
+			// aapt resource value: 0x7f0a000a
+			public const int no_beacons = 2131361802;
+			
+			// aapt resource value: 0x7f0a0012
+			public const int not_so_fast_code = 2131361810;
+			
+			// aapt resource value: 0x7f0a0011
+			public const int not_so_fast_question = 2131361809;
+			
+			// aapt resource value: 0x7f0a0000
+			public const int play = 2131361792;
+			
+			// aapt resource value: 0x7f0a0014
+			public const int quest = 2131361812;
+			
+			// aapt resource value: 0x7f0a001e
+			public const int share_success = 2131361822;
+			
+			// aapt resource value: 0x7f0a001f
+			public const int success_tweet = 2131361823;
+			
+			// aapt resource value: 0x7f0a0017
+			public const int thats_it = 2131361815;
+			
+			// aapt resource value: 0x7f0a000f
+			public const int you_found_beacons = 2131361807;
+			
+			// aapt resource value: 0x7f0a0010
+			public const int you_found_beacons_code = 2131361808;
 			
 			static String()
 			{
@@ -104,6 +1093,263 @@ namespace TeCHeCerchi.Droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f06000a
+			public const int ActionBar_Solid_Quest = 2131099658;
+			
+			// aapt resource value: 0x7f06000b
+			public const int ActionBar_Transparent_Quest = 2131099659;
+			
+			// aapt resource value: 0x7f06000e
+			public const int ActionBarTabStyle_Quest = 2131099662;
+			
+			// aapt resource value: 0x7f060011
+			public const int ActionButton_CloseMode_Quest = 2131099665;
+			
+			// aapt resource value: 0x7f060001
+			public const int Base_CardView = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int CardView = 2131099648;
+			
+			// aapt resource value: 0x7f060002
+			public const int CardView_Dark = 2131099650;
+			
+			// aapt resource value: 0x7f060003
+			public const int CardView_Light = 2131099651;
+			
+			// aapt resource value: 0x7f060006
+			public const int CircularProgressBar = 2131099654;
+			
+			// aapt resource value: 0x7f060007
+			public const int CircularProgressBarLight = 2131099655;
+			
+			// aapt resource value: 0x7f06000d
+			public const int DropDownListView_Quest = 2131099661;
+			
+			// aapt resource value: 0x7f06000f
+			public const int DropDownNav_Quest = 2131099663;
+			
+			// aapt resource value: 0x7f06000c
+			public const int PopupMenu_Quest = 2131099660;
+			
+			// aapt resource value: 0x7f060010
+			public const int ProgressBar_Quest = 2131099664;
+			
+			// aapt resource value: 0x7f060008
+			public const int ProgressBarQuest = 2131099656;
+			
+			// aapt resource value: 0x7f060004
+			public const int ProgressButton = 2131099652;
+			
+			// aapt resource value: 0x7f060005
+			public const int ProgressButton_Pin = 2131099653;
+			
+			// aapt resource value: 0x7f060009
+			public const int Theme_Quest = 2131099657;
+			
+			// aapt resource value: 0x7f060012
+			public const int Theme_Quest_Widget = 2131099666;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int preferences_general = 2131034112;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] CardView = new int[] {
+					16843071,
+					16843072,
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978};
+			
+			// aapt resource value: 1
+			public const int CardView_android_minHeight = 1;
+			
+			// aapt resource value: 0
+			public const int CardView_android_minWidth = 0;
+			
+			// aapt resource value: 2
+			public const int CardView_cardBackgroundColor = 2;
+			
+			// aapt resource value: 3
+			public const int CardView_cardCornerRadius = 3;
+			
+			// aapt resource value: 4
+			public const int CardView_cardElevation = 4;
+			
+			// aapt resource value: 5
+			public const int CardView_cardMaxElevation = 5;
+			
+			// aapt resource value: 7
+			public const int CardView_cardPreventCornerOverlap = 7;
+			
+			// aapt resource value: 6
+			public const int CardView_cardUseCompatPadding = 6;
+			
+			// aapt resource value: 8
+			public const int CardView_contentPadding = 8;
+			
+			// aapt resource value: 12
+			public const int CardView_contentPaddingBottom = 12;
+			
+			// aapt resource value: 9
+			public const int CardView_contentPaddingLeft = 9;
+			
+			// aapt resource value: 10
+			public const int CardView_contentPaddingRight = 10;
+			
+			// aapt resource value: 11
+			public const int CardView_contentPaddingTop = 11;
+			
+			public static int[] HoloCircularProgressBar = new int[] {
+					2130771991,
+					2130771992,
+					2130771993,
+					2130771994,
+					2130771995,
+					2130771996,
+					2130771997,
+					2130771998};
+			
+			// aapt resource value: 0
+			public const int HoloCircularProgressBar_circular_gravity = 0;
+			
+			// aapt resource value: 6
+			public const int HoloCircularProgressBar_circular_indeterminate = 6;
+			
+			// aapt resource value: 7
+			public const int HoloCircularProgressBar_circular_indeterminate_interval = 7;
+			
+			// aapt resource value: 3
+			public const int HoloCircularProgressBar_circular_marker_progress = 3;
+			
+			// aapt resource value: 2
+			public const int HoloCircularProgressBar_circular_progress = 2;
+			
+			// aapt resource value: 5
+			public const int HoloCircularProgressBar_circular_progress_background_color = 5;
+			
+			// aapt resource value: 4
+			public const int HoloCircularProgressBar_circular_progress_color = 4;
+			
+			// aapt resource value: 1
+			public const int HoloCircularProgressBar_circular_stroke_width = 1;
+			
+			public static int[] ProgressButton = new int[] {
+					16842970,
+					16842981,
+					16843534,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985,
+					2130771986,
+					2130771987,
+					2130771988,
+					2130771989,
+					2130771990};
+			
+			// aapt resource value: 1
+			public const int ProgressButton_android_clickable = 1;
+			
+			// aapt resource value: 0
+			public const int ProgressButton_android_focusable = 0;
+			
+			// aapt resource value: 2
+			public const int ProgressButton_android_selectableItemBackground = 2;
+			
+			// aapt resource value: 5
+			public const int ProgressButton_circleColor = 5;
+			
+			// aapt resource value: 12
+			public const int ProgressButton_indeterminate = 12;
+			
+			// aapt resource value: 13
+			public const int ProgressButton_indeterminate_interval = 13;
+			
+			// aapt resource value: 10
+			public const int ProgressButton_innerSize = 10;
+			
+			// aapt resource value: 4
+			public const int ProgressButton_max = 4;
+			
+			// aapt resource value: 11
+			public const int ProgressButton_pinned = 11;
+			
+			// aapt resource value: 7
+			public const int ProgressButton_pinnedDrawable = 7;
+			
+			// aapt resource value: 3
+			public const int ProgressButton_progress = 3;
+			
+			// aapt resource value: 6
+			public const int ProgressButton_progressColor = 6;
+			
+			// aapt resource value: 9
+			public const int ProgressButton_shadowDrawable = 9;
+			
+			// aapt resource value: 8
+			public const int ProgressButton_unpinnedDrawable = 8;
+			
+			public static int[] RobotoTextView = new int[] {
+					2130772000};
+			
+			// aapt resource value: 0
+			public const int RobotoTextView_typeface = 0;
+			
+			public static int[] Theme = new int[] {
+					2130771999};
+			
+			// aapt resource value: 0
+			public const int Theme_circularProgressBarStyle = 0;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
