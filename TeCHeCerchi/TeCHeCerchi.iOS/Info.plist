@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>TeCHe Cerchi</string>
 	<key>CFBundleIdentifier</key>
-	<string>rosselli.informatica.TeCHeCerchi.public</string>
+	<string>com.rosselli.TeCHeCerchi.public</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -40,27 +40,29 @@
 	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Enabling this will allow you to scan for beacons during your quest!</string>
-        <key>NSCameraUsageDescription</key>
-        <string>This app needs access to the camera to take photos.</string>
-        <key>NSAppTransportSecurity</key>
-        <dict>
-            <key>NSExceptionDomains</key>
-            <dict>
-                <key>www.elea9003.cloud</key>
-                <dict>
-                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
-                    <true/>
-                    <key>NSIncludesSubdomains</key>
-                    <true/>
-                </dict>
-                <key>blog.xamarin.com</key>
-                <dict>
-                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
-                    <true/>
-                    <key>NSIncludesSubdomains</key>
-                    <true/>
-                </dict>
-            </dict>
-        </dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs access to the camera to take photos.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>www.elea9003.cloud</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>blog.xamarin.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>CFBundleName</key>
+	<string>TeCHe Cerchi</string>
 </dict>
 </plist>

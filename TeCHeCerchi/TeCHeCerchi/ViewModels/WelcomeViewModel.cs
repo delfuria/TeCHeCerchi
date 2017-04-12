@@ -82,30 +82,29 @@ namespace TeCHeCerchi.Shared.ViewModels
 #else
                 var url = string.Format(GameUrl, random.Next(0, 3));
                 url = string.Format(GameUrl, 0);
-                //var url = string.Format(GameUrl, 0);
 #endif
                 string result = "";
-#if __IOS__
-                //var client = new HttpClient(new ModernHttpClient.NativeMessageHandler());
-                //client.Timeout = new TimeSpan(0, 0, 15);
-                //result = await client.GetStringAsync(url);
-#else
-                //var client = new HttpClient();
-                //var request = (HttpWebRequest) WebRequest.Create(url);  
-                //using (WebResponse response = await request.GetResponseAsync())
-                //{
-                //    using (var stream = response.GetResponseStream())
-                //    {
-                //        using (StreamReader sr = new StreamReader(stream))
-                //        {
-                //             result = sr.ReadToEnd();
-                //        }
-                //    }
-                //}
+//#if __IOS__
+//                //var client = new HttpClient(new ModernHttpClient.NativeMessageHandler());
+//                //client.Timeout = new TimeSpan(0, 0, 15);
+//                //result = await client.GetStringAsync(url);
+//#else
+//                //var client = new HttpClient();
+//                //var request = (HttpWebRequest) WebRequest.Create(url);  
+//                //using (WebResponse response = await request.GetResponseAsync())
+//                //{
+//                //    using (var stream = response.GetResponseStream())
+//                //    {
+//                //        using (StreamReader sr = new StreamReader(stream))
+//                //        {
+//                //             result = sr.ReadToEnd();
+//                //        }
+//                //    }
+//                //}
 
-#endif
+//#endif
                 var client = new HttpClient();
-                client.Timeout = new TimeSpan(0, 0, 15);
+                client.Timeout = new TimeSpan(0, 0, 10);
                 result = await client.GetStringAsync(url);
                 Game = JsonConvert.DeserializeObject<Game>(result);
 
