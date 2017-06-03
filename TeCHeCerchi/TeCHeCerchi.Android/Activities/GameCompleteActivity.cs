@@ -63,7 +63,7 @@ namespace TeCHeCerchi.Droid.Activities
                     if (accuracy > .2)
                         continue;
 
-                    viewModel.CheckBanana(beacon.Major, beacon.Minor);
+                    viewModel.CheckBeacon(beacon.Major, beacon.Minor);
                 }
             };
 
@@ -107,14 +107,14 @@ namespace TeCHeCerchi.Droid.Activities
                             break;
                         case GameCompleteViewModel.PrizePropertyName:
                             {
-                                if (viewModel.SecretBananaFound)
+                                if (viewModel.SecretBeaconFound)
                                     mainImage.SetImageResource(Resource.Drawable.ic_secret_prize);
 
                                 InitBeacon();
                             }
                             break;
-                        case GameCompleteViewModel.SecretBananaFoundPropertyName:
-                            if (viewModel.SecretBananaFound)
+                        case GameCompleteViewModel.SecretBeaconFoundPropertyName:
+                            if (viewModel.SecretBeaconFound)
                                 mainImage.SetImageResource(Resource.Drawable.ic_secret_prize);
                             break;
                     }
@@ -143,7 +143,7 @@ namespace TeCHeCerchi.Droid.Activities
                                     return;
 
                                 Console.WriteLine("Scanned Barcode: " + result.Result.Text);
-                                viewModel.CheckBanana(result.Result.Text);
+                                viewModel.CheckBeacon(result.Result.Text);
                             });
                     }
                     break;

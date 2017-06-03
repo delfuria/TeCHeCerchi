@@ -12,8 +12,8 @@
       ],
       "Major": 10,
       "Clue": {
-        "Message": "Welcome to the Xamarin Evolve Quest! Start your journey by talking with a Game Master to scan your first beacons!",
-        "Image": "http://www.elea9003.cloud/Quest/questimages/quest0.png"
+        "Message": "Benvenuto a TeCHe Cerchi! Inizia la tua ricerca chiedendo all’ingresso dove trovare il tuo primo oggetto!",
+        "Image": "http://www.elea9003.cloud/Quest/questimages/anfora.jpg"
       },
       "Extra": null,
       "Question": null
@@ -23,17 +23,21 @@
       "Beacons": [
         {
           "Id": 0,
-          "Minor": 110
+          "Minor": 112
+        },
+        {
+          "Id": 1,
+          "Minor": 111
         }
       ],
-      "Major": 10,
+      "Major": 11,
       "Clue": {
-        "Message": "Come find Brent, Devin, or Tony at the Twilio booth to experience some awesome VoIP.",
-        "Image": "http://www.elea9003.cloud/Quest/questimages/quest3.png"
+        "Message": "Cerca la Coppa attica a figure rosse.",
+        "Image": "http://www.elea9003.cloud/Quest/questimages/coppa.jpg"
       },
       "Extra": {
-        "Code": "qwerty",
-        "Hint": "See Twilio in action to get your secret code, text (678) 264-6842 with the word 'twilio'. If international number, just ask anyone at Twilio."
+        "Code": "etrusca",
+        "Hint": "Questa preziosa Kylix, è una manifattura di produzione ETRUSCA, GRECA o ROMANA ?"
       },
       "Question": null
     },
@@ -43,63 +47,32 @@
       "Beacons": [
         {
           "Id": 0,
-          "Minor": 112
-        },
-        {
-          "Id": 1,
-          "Minor": 111
+          "Minor": 120
         }
       ],
-      "Major": 11,
+      "Major": 20,
       "Clue": {
-        "Message": "Step into a dimension not only of sight and sound but of mind and cardboard. Found near the mini-hacks.",
-        "Image": "http://www.elea9003.cloud/Quest/questimages/quest1.png"
-      },
-      "Extra": {
-        "Code": "5",
-        "Hint": "Try on cardboard to find all the hidden monkeys. Enter how many are hanging around."
-      },
-      "Question": null
-    },
-    {
-      "Id": 3,
-      "Beacons": [
-        {
-          "Id": 0,
-          "Minor": 112
-        },
-        {
-          "Id": 1,
-          "Minor": 111
-        }
-      ],
-      "Major": 11,
-      "Clue": {
-        "Message": "Eat and be merry at Evolve.",
-        "Image": "http://www.elea9003.cloud/Quest/questimages/quest10.png"
+        "Message": "Cerca questa splendida Situla di bronzo",
+        "Image": "http://www.elea9003.cloud/Quest/questimages/situla.jpg"
       },
       "Extra": null,
       "Question": {
-        "Text": "Name the cafe that served as Xamarin’s home base on Newbury street in Boston.",
+        "Text": "Quale produzione tipica locale è il filo conduttore che lega assieme gli oggetti trovati ???",
         "Answers": [
           {
-            "Text": "Pavement",
+            "Text": "Olio",
             "IsAnswer": false
           },
           {
-            "Text": "Wired Puppy",
+            "Text": "Vino",
             "IsAnswer": true
           },
           {
-            "Text": "Starbucks",
+            "Text": "Grano",
             "IsAnswer": false
           },
           {
-            "Text": "Thinking Cup",
-            "IsAnswer": false
-          },
-          {
-            "Text": "Java the Hut",
+            "Text": "Acqua",
             "IsAnswer": false
           }
         ]
@@ -107,7 +80,7 @@
     }
   ],
   "Prize": {
-    "Message": "Congratulations! Return to the quest start to claim your prize.",
-    "Image": "http://blog.xamarin.com/wp-content/uploads/2014/04/monkey-300x300.png"
+    "Message": "Ottimo lavoro! Ritorna all'ingresso per ricevere il tuo premio.",
+    "Image": "http://www.elea9003.cloud/Quest/questimages/gattino.jpg"
   }
 }

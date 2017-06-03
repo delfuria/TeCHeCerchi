@@ -127,8 +127,8 @@ namespace TeCHeCerchi.iOS
             NavigationItem.RightBarButtonItem = scanButton;
 
 
-            undiscoveredBeacon = UIImage.FromBundle("ic_no_banana");
-            foundBeacon = UIImage.FromBundle("ic_banana");
+            undiscoveredBeacon = UIImage.FromBundle("ic_no_beacon");
+            foundBeacon = UIImage.FromBundle("ic_beacon");
 
             viewModel.PropertyChanged += HandlePropertyChanged;
 
@@ -154,19 +154,19 @@ namespace TeCHeCerchi.iOS
         {
             if (viewModel.ExtraTaskVisible)
             {
-                LabelBeaconsNearby.Text = "You found all of the Beacons!";
+                LabelBeaconsNearby.Text = "Hai trovato tutti i Beacons!";
                 LabelBeaconsNearby.TextColor = Color.Blue.ToUIColor();
                 return;
             }
 
             if (beaconsClose)
             {
-                LabelBeaconsNearby.Text = "A Beacon is near you.";
+                LabelBeaconsNearby.Text = "Un Beacon è vicino a te.";
                 LabelBeaconsNearby.TextColor = Color.Blue.ToUIColor();
             }
             else
             {
-                LabelBeaconsNearby.Text = "No Beacons nearby.";
+                LabelBeaconsNearby.Text = "Nessun Beacons nelle vicinanze.";
                 LabelBeaconsNearby.TextColor = Color.LightGray.ToUIColor();
             }
         }

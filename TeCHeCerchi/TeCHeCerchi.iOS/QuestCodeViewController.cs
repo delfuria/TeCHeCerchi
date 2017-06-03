@@ -46,10 +46,10 @@ namespace TeCHeCerchi.iOS
             if (ViewModel.QuestComplete)
             {
                 ButtonCancel.Hidden = TextFieldCode.Hidden = true;
-                ButtonEnterCode.SetTitle("Continue", UIControlState.Normal);
-                LabelHint.Text = "Are you ready to continue with the next quest, thrill-seeker?";
-                LabelAwesome.Text = "That's it!";
-                LabelCongrats.Text = "You entered the correct code.";
+                ButtonEnterCode.SetTitle("Continua", UIControlState.Normal);
+                LabelHint.Text = "Pronti per continuare l'avventura con una nuova ricerca ?";
+                LabelAwesome.Text = "Fatto!";
+                LabelCongrats.Text = "Hai inserito il codice corretto!";
                 Settings.QuestDone = true;
             }
         }

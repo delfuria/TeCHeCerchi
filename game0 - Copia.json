@@ -1,0 +1,113 @@
+{
+  "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+  "Started": true,
+  "Quests": [
+    {
+      "Id": 0,
+      "Beacons": [
+        {
+          "Id": 0,
+          "Minor": 110
+        }
+      ],
+      "Major": 10,
+      "Clue": {
+        "Message": "Welcome to the Xamarin Evolve Quest! Start your journey by talking with a Game Master to scan your first beacons!",
+        "Image": "http://www.elea9003.cloud/Quest/questimages/quest0.png"
+      },
+      "Extra": null,
+      "Question": null
+    },
+    {
+      "Id": 1,
+      "Beacons": [
+        {
+          "Id": 0,
+          "Minor": 110
+        }
+      ],
+      "Major": 10,
+      "Clue": {
+        "Message": "Come find Brent, Devin, or Tony at the Twilio booth to experience some awesome VoIP.",
+        "Image": "http://www.elea9003.cloud/Quest/questimages/quest3.png"
+      },
+      "Extra": {
+        "Code": "qwerty",
+        "Hint": "See Twilio in action to get your secret code, text (678) 264-6842 with the word 'twilio'. If international number, just ask anyone at Twilio."
+      },
+      "Question": null
+    },
+
+    {
+      "Id": 2,
+      "Beacons": [
+        {
+          "Id": 0,
+          "Minor": 112
+        },
+        {
+          "Id": 1,
+          "Minor": 111
+        }
+      ],
+      "Major": 11,
+      "Clue": {
+        "Message": "Step into a dimension not only of sight and sound but of mind and cardboard. Found near the mini-hacks.",
+        "Image": "http://www.elea9003.cloud/Quest/questimages/quest1.png"
+      },
+      "Extra": {
+        "Code": "5",
+        "Hint": "Try on cardboard to find all the hidden monkeys. Enter how many are hanging around."
+      },
+      "Question": null
+    },
+    {
+      "Id": 3,
+      "Beacons": [
+        {
+          "Id": 0,
+          "Minor": 112
+        },
+        {
+          "Id": 1,
+          "Minor": 111
+        }
+      ],
+      "Major": 11,
+      "Clue": {
+        "Message": "Eat and be merry at Evolve.",
+        "Image": "http://www.elea9003.cloud/Quest/questimages/quest10.png"
+      },
+      "Extra": null,
+      "Question": {
+        "Text": "Name the cafe that served as Xamarin’s home base on Newbury street in Boston.",
+        "Answers": [
+          {
+            "Text": "Pavement",
+            "IsAnswer": false
+          },
+          {
+            "Text": "Wired Puppy",
+            "IsAnswer": true
+          },
+          {
+            "Text": "Starbucks",
+            "IsAnswer": false
+          },
+          {
+            "Text": "Thinking Cup",
+            "IsAnswer": false
+          },
+          {
+            "Text": "Java the Hut",
+            "IsAnswer": false
+          }
+        ]
+      }
+    }
+  ],
+  "Prize": {
+    "Message": "Congratulations! Return to the quest start to claim your prize.",
+    "Image": "http://blog.xamarin.com/wp-content/uploads/2014/04/monkey-300x300.png"
+  }
+}

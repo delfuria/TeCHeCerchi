@@ -39,7 +39,7 @@ namespace TeCHeCerchi.iOS
 						return;
 
 					Console.WriteLine("Scanned Barcode: " + result.Text);
-					viewModel.CheckBanana(result.Text);
+					viewModel.CheckBeacon(result.Text);
 				});
 
 
@@ -63,7 +63,7 @@ namespace TeCHeCerchi.iOS
 					if (beacon.Accuracy > .2)//close, but not close enough.
 						return;
 
-					viewModel.CheckBanana(beacon.Major.Int32Value, beacon.Minor.Int32Value);
+					viewModel.CheckBeacon(beacon.Major.Int32Value, beacon.Minor.Int32Value);
 				}
 			};
 
@@ -77,7 +77,7 @@ namespace TeCHeCerchi.iOS
 		partial void ButtonShare_TouchUpInside(UIButton sender)
 		{
 
-			var items = new NSObject[] { new NSString("I just completed the #XamarinTeCHe Cerchi and scored an awesome prize!") };
+			var items = new NSObject[] { new NSString("Ho terminato #TeCHeCerchi ed ho vinto uno splendido premio! http://www.elea9003.cloud/Quest/questimages/gattino.jpg") };
 			var activityController = new UIActivityViewController(items, null);
 			PresentViewController(activityController, true, null);
 
@@ -137,13 +137,13 @@ namespace TeCHeCerchi.iOS
 								LabelMessage.Text = viewModel.Prize.Message;
 								ImageMain.LoadUrl(viewModel.Prize.Image);
 
-								if (viewModel.SecretBananaFound)
+								if (viewModel.SecretBeaconFound)
 									ImageMain.Image = UIImage.FromBundle("ic_secret_prize");
 								StartRanging();
 							}
 							break;
-						case GameCompleteViewModel.SecretBananaFoundPropertyName:
-							if (viewModel.SecretBananaFound)
+						case GameCompleteViewModel.SecretBeaconFoundPropertyName:
+							if (viewModel.SecretBeaconFound)
 								ImageMain.Image = UIImage.FromBundle("ic_secret_prize");
 							break;
 					}

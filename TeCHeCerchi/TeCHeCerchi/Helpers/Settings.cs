@@ -40,7 +40,7 @@ namespace TeCHeCerchi.Shared.Helpers
         static readonly bool Quest3Default = false;
 
         const string SecretBeaconFoundKey = "secret_beacon";
-        static readonly bool SecretBananaFoundDefault = false;
+        static readonly bool SecretBeaconFoundDefault = false;
 
         const string CurrentQuestKey = "current_quest_number";
         static readonly int CurrenQuestDefault = 0;
@@ -50,15 +50,19 @@ namespace TeCHeCerchi.Shared.Helpers
 
         #endregion
 
+        private static int _currentQuest;
+
         public static int CurrentQuest
         {
             get
             {
-                return AppSettings.GetValueOrDefault(CurrentQuestKey, CurrenQuestDefault);
+                return _currentQuest;
+                //return AppSettings.GetValueOrDefault(CurrentQuestKey, CurrenQuestDefault);
             }
             set
             {
-                AppSettings.AddOrUpdateValue(CurrentQuestKey, value);
+                _currentQuest = value;
+                //AppSettings.AddOrUpdateValue(CurrentQuestKey, value);
             }
         }
 
@@ -113,7 +117,7 @@ namespace TeCHeCerchi.Shared.Helpers
         {
             get
             {
-                return AppSettings.GetValueOrDefault(SecretBeaconFoundKey, SecretBananaFoundDefault);
+                return AppSettings.GetValueOrDefault(SecretBeaconFoundKey, SecretBeaconFoundDefault);
             }
             set
             {

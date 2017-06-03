@@ -20,9 +20,8 @@ namespace TeCHeCerchi.iOS
             {
                 new Section("TeCHe Cerchi")
                 {
-					
+                    new HtmlElement("IIS Rosselli-Rasetti", NSUrl.FromString("http://secondarieclago.it")),
                     new HtmlElement("C# and Xamarin", NSUrl.FromString("http://www.xamarin.com")),
-                    new HtmlElement("Privacy Policy", NSUrl.FromString("http://www.xamarin.com/privacy")),
                 },
                 new Section("Technology Use")
                 {

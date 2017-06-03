@@ -209,13 +209,13 @@
     <AndroidResource Include="Resources\drawable-hdpi\ic_action_scan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\ic_banana.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_beacon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\ic_no_banana.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_no_beacon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\ic_star.png" />
@@ -338,13 +338,13 @@
     <AndroidResource Include="Resources\drawable-mdpi\ic_action_scan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-mdpi\ic_banana.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_beacon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-mdpi\ic_no_banana.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_no_beacon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-mdpi\ic_star.png" />
@@ -467,7 +467,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_scan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\ic_banana.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_beacon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xhdpi\ic_code.png" />
@@ -479,7 +479,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\ic_no_banana.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_no_beacon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xhdpi\ic_quest_completed.png" />
@@ -629,13 +629,13 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_scan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\ic_banana.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_beacon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\ic_no_banana.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_no_beacon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_star.png" />

@@ -34,10 +34,10 @@ namespace TeCHeCerchi.iOS
                     if (ViewModel.QuestComplete)
                     {
                         ButtonCancel.Hidden = true;
-                        ButtonAnswer.SetTitle("Continue", UIControlState.Normal);
-                        LabelHint.Text = "Are you ready to continue with the next quest, thrill-seeker?";
-                        LabelAwesome.Text = "That's it!";
-                        LabelCongrats.Text = "You answered the question correctly, noble one.";
+                        ButtonAnswer.SetTitle("Continua", UIControlState.Normal);
+                        LabelHint.Text = "Pronti per continuare l'avventura con una nuova ricerca ?";
+                        LabelAwesome.Text = "Fatto !";
+                        LabelCongrats.Text = "Hai risposto correttamente alla domanda, ottimo.";
                         Settings.QuestDone = true;
                     }
                 });

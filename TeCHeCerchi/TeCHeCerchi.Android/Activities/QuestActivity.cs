@@ -235,9 +235,9 @@ namespace TeCHeCerchi.Droid.Activities
         {
             RunOnUiThread(() =>
                 {
-                    beacon1.SetImageResource(Resource.Drawable.ic_no_banana);
-                    beacon2.SetImageResource(Resource.Drawable.ic_no_banana);
-                    beacon3.SetImageResource(Resource.Drawable.ic_no_banana);
+                    beacon1.SetImageResource(Resource.Drawable.ic_no_beacon);
+                    beacon2.SetImageResource(Resource.Drawable.ic_no_beacon);
+                    beacon3.SetImageResource(Resource.Drawable.ic_no_beacon);
                     beacon1.Visibility = beacon2.Visibility = beacon3.Visibility = ViewStates.Invisible;
                     for (int i = 0; i < ViewModel.Quest.Beacons.Count; i++)
                     {
@@ -268,11 +268,11 @@ namespace TeCHeCerchi.Droid.Activities
                 {
                     for (int i = 0; i < ViewModel.Quest.Beacons.Count; i++)
                     {
-                        var banana = ViewModel.Quest.Beacons.FirstOrDefault(b => b.Id == i);
-                        if (banana == null)
+                        var beacon = ViewModel.Quest.Beacons.FirstOrDefault(b => b.Id == i);
+                        if (beacon == null)
                             continue;
 
-                        beacons[i].SetImageResource(banana.Found ? Resource.Drawable.ic_banana : Resource.Drawable.ic_no_banana);
+                        beacons[i].SetImageResource(beacon.Found ? Resource.Drawable.ic_beacon : Resource.Drawable.ic_no_beacon);
                     }
                     buttonContinue.Visibility = ViewModel.ExtraTaskVisible ? ViewStates.Visible : ViewStates.Gone;
                 });

@@ -94,7 +94,7 @@ namespace TeCHeCerchi.Shared.ViewModels
         bool isWindowsPhone = true;
 
 #else
-        string questDisplay = "Quest ";
+        string questDisplay = "Ricerca ";
         bool isWindowsPhone = false;
 #endif
         /// <summary>
@@ -105,18 +105,18 @@ namespace TeCHeCerchi.Shared.ViewModels
             get
             {
                 if (this.GameComplete)
-                    return isWindowsPhone ? "complete" : "Complete";
+                    return isWindowsPhone ? "completata" : "Completata";
 
                 if (game == null)
                     return string.Empty;
 
-                return questDisplay + (Settings.CurrentQuest + 1) + " of " + game.Quests.Count;
+                return questDisplay + (Settings.CurrentQuest + 1) + " di " + game.Quests.Count;
             }
         }
 
         public string CompletionDisplayShort
         {
-            get { return game == null ? string.Empty : (Settings.CurrentQuest + 1) + " of " + game.Quests.Count + " -"; }
+            get { return game == null ? string.Empty : (Settings.CurrentQuest + 1) + " di " + game.Quests.Count + " -"; }
         }
 
         private ICommand loadQuestCommand;
@@ -156,7 +156,7 @@ namespace TeCHeCerchi.Shared.ViewModels
                     Settings.GameCompleted = true;
                     GameComplete = true;//trigger game complete
                     ExtraTaskVisible = true;
-                    Quest = new Quest { Major = -1, Beacons = new List<Beacon>(), Clue = new Clue { Image = "http://blog.xamarin.com/wp-content/uploads/2014/01/evolve-2014.png", Message = "Congratulations, you have completed the Evolve 2014 Quest!" } };
+                    Quest = new Quest { Major = -1, Beacons = new List<Beacon>(), Clue = new Clue { Image = "http://www.elea9003.cloud/Quest/questimages/trasimeno.jpg", Message = "Congratulazioni, hai completato TeChe Cerchi !" } };
                     OnPropertyChanged(CompletionDisplayPropertyName);
                     OnPropertyChanged("Beacon1Visible");
                     OnPropertyChanged("Beacon2Visible");
@@ -205,9 +205,9 @@ namespace TeCHeCerchi.Shared.ViewModels
 
 
         /// <summary>
-        /// Checks the banana.
+        /// Checks the beacon.
         /// </summary>
-        /// <returns><c>true</c>, if banana was checked, <c>false</c> otherwise.</returns>
+        /// <returns><c>true</c>, if beacon was checked, <c>false</c> otherwise.</returns>
         /// <param name="major">Major number of the beacon.</param>
         /// <param name="minor">Minor number of the beacon.</param>
         public void CheckBeacon(int major, int minor)
@@ -253,7 +253,7 @@ namespace TeCHeCerchi.Shared.ViewModels
                     if (beacon.Minor == minor)
                     {
                         beacon.Found = true;
-                        OnPropertyChanged(QuestsPropertyName); //refresh bananas!
+                        OnPropertyChanged(QuestsPropertyName); //refresh beacons!
 
                         CheckEndQuest();
                         found = true;

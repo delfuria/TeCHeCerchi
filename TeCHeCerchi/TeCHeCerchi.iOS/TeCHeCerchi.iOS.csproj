@@ -19,12 +19,25 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <MtouchArch>i386</MtouchArch>
+    <MtouchArch>i386, x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
-    <MtouchDebug>true</MtouchDebug>
-    <MtouchProfiling>true</MtouchProfiling>
-    <CodesignKey>iPhone Developer: Stefano Del Furia (G2686Y5924)</CodesignKey>
-    <CodesignProvision>46e69302-65a3-447b-82ad-8dc79477e562</CodesignProvision>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchProfiling>True</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignProvision>
+    </CodesignProvision>
+    <MtouchSdkVersion>10.3</MtouchSdkVersion>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchNoSymbolStrip>False</MtouchNoSymbolStrip>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchEnableBitcode>False</MtouchEnableBitcode>
+    <MtouchUseSGen>True</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <OptimizePNGs>True</OptimizePNGs>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchFloat32>False</MtouchFloat32>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -62,7 +75,7 @@
     <MtouchProfiling>true</MtouchProfiling>
     <CodesignKey>iPhone Developer: Stefano Del Furia (G2686Y5924)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignProvision>46e69302-65a3-447b-82ad-8dc79477e562</CodesignProvision>
+    <CodesignProvision>29d8a492-c2ee-4765-a383-be0cb80dd1c8</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="GCDiscreetNotification">
@@ -173,7 +186,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Entitlements.plist" />
-    <InterfaceDefinition Include="MainStoryboard.storyboard" />
+    <InterfaceDefinition Include="MainStoryboard.storyboard">
+      <SubType>Designer</SubType>
+    </InterfaceDefinition>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -215,10 +230,10 @@
     <BundleResource Include="Resources\Default-568h%402x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_banana.png" />
+    <BundleResource Include="Resources\ic_beacon.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_banana%402x.png" />
+    <BundleResource Include="Resources\ic_beacon%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ic_code.png" />
@@ -233,10 +248,10 @@
     <BundleResource Include="Resources\ic_game_completed%402x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_no_banana.png" />
+    <BundleResource Include="Resources\ic_no_beacon.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_no_banana%402x.png" />
+    <BundleResource Include="Resources\ic_no_beacon%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ic_quest_completed.png" />
@@ -281,7 +296,7 @@
     <BundleResource Include="Resources\scan%402x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\xamagon.png" />
+    <BundleResource Include="Resources\lakemap.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default.png" />

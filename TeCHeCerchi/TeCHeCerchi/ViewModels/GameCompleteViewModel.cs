@@ -82,12 +82,12 @@ namespace TeCHeCerchi.Shared.ViewModels
 
 
         /// <summary>
-        /// Checks the banana.
+        /// Checks the beacon.
         /// </summary>
-        /// <returns><c>true</c>, if banana was checked, <c>false</c> otherwise.</returns>
+        /// <returns><c>true</c>, if beacon was checked, <c>false</c> otherwise.</returns>
         /// <param name="major">Major number of the beacon.</param>
         /// <param name="minor">Minor number of the beacon.</param>
-        public void CheckBanana(int major, int minor)
+        public void CheckBeacon(int major, int minor)
         {
             if (major == 9999 && minor == 1000)
             {
@@ -102,7 +102,7 @@ namespace TeCHeCerchi.Shared.ViewModels
 
                 messages.SendMessage("Congratulations!", "You found the top secret hidden beacon and have unlocked a special prize at the end of your adventure!");
                 Settings.SecretBeaconFound = true;
-                OnPropertyChanged(SecretBananaFoundPropertyName);
+                OnPropertyChanged(SecretBeaconFoundPropertyName);
                 return;
             }
 
@@ -110,15 +110,15 @@ namespace TeCHeCerchi.Shared.ViewModels
        
         }
 
-        public const string SecretBananaFoundPropertyName = "SecretBananaFound";
+        public const string SecretBeaconFoundPropertyName = "SecretBeaconFound";
 
-        public bool SecretBananaFound
+        public bool SecretBeaconFound
         {
             get { return Settings.SecretBeaconFound; }
         }
 
 
-        public void CheckBanana(string scan)
+        public void CheckBeacon(string scan)
         {
             var items = scan.Split(new[] { ',' });
 
@@ -127,7 +127,7 @@ namespace TeCHeCerchi.Shared.ViewModels
             int.TryParse(items[0], out major);
             int.TryParse(items[1], out minor);
 
-            CheckBanana(major, minor);
+            CheckBeacon(major, minor);
         }
     }
 }
