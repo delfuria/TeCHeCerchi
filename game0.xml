@@ -10,8 +10,8 @@
     </Beacons>
     <Major>10</Major>
     <Clue>
-      <Message>Welcome to the Xamarin Evolve Quest! Start your journey by talking with a Game Master to scan your first beacons!</Message>
-      <Image>http:&#x2F;&#x2F;www.elea9003.cloud&#x2F;Quest&#x2F;questimages&#x2F;quest0.png</Image>
+      <Message>Benvenuto a TeCHe Cerchi! Inizia la tua ricerca chiedendo all’ingresso dove trovare il tuo primo oggetto!</Message>
+      <Image>http:&#x2F;&#x2F;www.elea9003.cloud&#x2F;Quest&#x2F;questimages&#x2F;anfora.jpg</Image>
     </Clue>
     <Extra/>
     <Question/>
@@ -20,16 +20,20 @@
     <Id>1</Id>
     <Beacons>
       <Id>0</Id>
-      <Minor>110</Minor>
+      <Minor>112</Minor>
     </Beacons>
-    <Major>10</Major>
+    <Beacons>
+      <Id>1</Id>
+      <Minor>111</Minor>
+    </Beacons>
+    <Major>11</Major>
     <Clue>
-      <Message>Come find Brent, Devin, or Tony at the Twilio booth to experience some awesome VoIP.</Message>
-      <Image>http:&#x2F;&#x2F;www.elea9003.cloud&#x2F;Quest&#x2F;questimages&#x2F;quest3.png</Image>
+      <Message>Cerca la Coppa attica a figure rosse.</Message>
+      <Image>http:&#x2F;&#x2F;www.elea9003.cloud&#x2F;Quest&#x2F;questimages&#x2F;coppa.jpg</Image>
     </Clue>
     <Extra>
-      <Code>qwerty</Code>
-      <Hint>See Twilio in action to get your secret code, text (678) 264-6842 with the word &#x27;twilio&#x27;. If international number, just ask anyone at Twilio.</Hint>
+      <Code>etrusca</Code>
+      <Hint>Questa preziosa Kylix, è una manifattura di produzione ETRUSCA, GRECA o ROMANA ?</Hint>
     </Extra>
     <Question/>
   </Quests>
@@ -37,65 +41,36 @@
     <Id>2</Id>
     <Beacons>
       <Id>0</Id>
-      <Minor>112</Minor>
+      <Minor>120</Minor>
     </Beacons>
-    <Beacons>
-      <Id>1</Id>
-      <Minor>111</Minor>
-    </Beacons>
-    <Major>11</Major>
+    <Major>20</Major>
     <Clue>
-      <Message>Step into a dimension not only of sight and sound but of mind and cardboard. Found near the mini-hacks.</Message>
-      <Image>http:&#x2F;&#x2F;www.elea9003.cloud&#x2F;Quest&#x2F;questimages&#x2F;quest1.png</Image>
-    </Clue>
-    <Extra>
-      <Code>5</Code>
-      <Hint>Try on cardboard to find all the hidden monkeys. Enter how many are hanging around.</Hint>
-    </Extra>
-    <Question/>
-  </Quests>
-  <Quests>
-    <Id>3</Id>
-    <Beacons>
-      <Id>0</Id>
-      <Minor>112</Minor>
-    </Beacons>
-    <Beacons>
-      <Id>1</Id>
-      <Minor>111</Minor>
-    </Beacons>
-    <Major>11</Major>
-    <Clue>
-      <Message>Eat and be merry at Evolve.</Message>
-      <Image>http:&#x2F;&#x2F;www.elea9003.cloud&#x2F;Quest&#x2F;questimages&#x2F;quest10.png</Image>
+      <Message>Cerca questa splendida Situla di bronzo</Message>
+      <Image>http:&#x2F;&#x2F;www.elea9003.cloud&#x2F;Quest&#x2F;questimages&#x2F;situla.jpg</Image>
     </Clue>
     <Extra/>
     <Question>
-      <Text>Name the cafe that served as Xamarinâ€™s home base on Newbury street in Boston.</Text>
+      <Text>Quale produzione tipica locale è il filo conduttore che lega assieme gli oggetti trovati ???</Text>
       <Answers>
-        <Text>Pavement</Text>
+        <Text>Olio</Text>
         <IsAnswer>false</IsAnswer>
       </Answers>
       <Answers>
-        <Text>Wired Puppy</Text>
+        <Text>Vino</Text>
         <IsAnswer>true</IsAnswer>
       </Answers>
       <Answers>
-        <Text>Starbucks</Text>
+        <Text>Grano</Text>
         <IsAnswer>false</IsAnswer>
       </Answers>
       <Answers>
-        <Text>Thinking Cup</Text>
-        <IsAnswer>false</IsAnswer>
-      </Answers>
-      <Answers>
-        <Text>Java the Hut</Text>
+        <Text>Acqua</Text>
         <IsAnswer>false</IsAnswer>
       </Answers>
     </Question>
   </Quests>
   <Prize>
-    <Message>Congratulations! Return to the quest start to claim your prize.</Message>
-    <Image>http:&#x2F;&#x2F;blog.xamarin.com&#x2F;wp-content&#x2F;uploads&#x2F;2014&#x2F;04&#x2F;monkey-300x300.png</Image>
+    <Message>Ottimo lavoro! Ritorna all&#x27;ingresso per ricevere il tuo premio.</Message>
+    <Image>http:&#x2F;&#x2F;www.elea9003.cloud&#x2F;Quest&#x2F;questimages&#x2F;gattino.jpg</Image>
   </Prize>
 </Game>
